@@ -14,14 +14,14 @@ const collections = [
     id: "women",
     title: "Women's Collection",
     description:
-      "Elegant frames from Dolce & Gabbana, Prada, Versace, Swarovski, and more. Discover designs that complement your unique style.",
+      "Elegant frames from Dolce & Gabbana, Prada, Versace, Swarovski, Miu Miu, Furla, and more. Discover designs that complement your unique style.",
     image: "/images/hero/hero-1.jpg",
   },
   {
     id: "men",
     title: "Men's Collection",
     description:
-      "Sophisticated eyewear from Porsche Design, Emporio Armani, Guess, and Ray-Ban. Bold frames for the modern gentleman.",
+      "Sophisticated eyewear from Porsche Design, Emporio Armani, Ray-Ban, Oakley, Silhouette, Jaguar, and Guess. Bold frames for the modern gentleman.",
     image: "/images/hero/hero-2.jpg",
   },
   {

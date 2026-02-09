@@ -4,7 +4,7 @@ import { useState } from "react";
 import { useForm } from "react-hook-form";
 import { zodResolver } from "@hookform/resolvers/zod";
 import { z } from "zod";
-import { MapPin, Phone, MessageCircle, CheckCircle } from "lucide-react";
+import { MapPin, Phone, MessageCircle, CheckCircle, Clock } from "lucide-react";
 import { AnimatedSection } from "@/components/shared/animated-section";
 import { ParallaxImage } from "@/components/shared/parallax-image";
 import { Button } from "@/components/ui/button";
@@ -37,6 +37,11 @@ const contactCards = [
     icon: MessageCircle,
     title: "Message Us",
     lines: [BUSINESS.email, `WhatsApp: ${BUSINESS.whatsapp}`],
+  },
+  {
+    icon: Clock,
+    title: "Working Hours",
+    lines: [BUSINESS.workingHours.weekdays, BUSINESS.workingHours.weekend],
   },
 ];
 
@@ -97,7 +102,7 @@ export default function ContactPage() {
 
         {/* Contact Cards */}
         <section className="py-16">
-          <div className="grid grid-cols-1 md:grid-cols-3 gap-6">
+          <div className="grid grid-cols-1 sm:grid-cols-2 lg:grid-cols-4 gap-6">
             {contactCards.map((card, index) => (
               <AnimatedSection key={card.title} delay={index * 0.1}>
                 <div className="bg-muted p-8 text-center">

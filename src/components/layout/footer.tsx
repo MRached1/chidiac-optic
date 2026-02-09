@@ -12,7 +12,7 @@ export function Footer() {
               Chidiac <span className="text-primary-400">Optic</span>
             </h3>
             <p className="text-gray-400 text-sm leading-relaxed mb-5">
-              Your trusted optical destination in Bickfaya, Lebanon. Premium eyewear, expert eye care, and personalized service since day one.
+              Your trusted optical destination in Bickfaya, Lebanon. Over 20 years of expert eye care, premium eyewear, and personalized service by Optometrist Francis Chidiac.
             </p>
             <div className="flex gap-3">
               <a
@@ -81,6 +81,11 @@ export function Footer() {
                 <a href={`mailto:${BUSINESS.email}`} className="hover:text-primary-400 transition-colors">
                   {BUSINESS.email}
                 </a>
+              </li>
+              <li className="pt-2 border-t border-gray-800">
+                <p className="text-gray-500 text-xs uppercase tracking-wider mb-1">Working Hours</p>
+                <p>{BUSINESS.workingHours.weekdays}</p>
+                <p>{BUSINESS.workingHours.weekend}</p>
               </li>
             </ul>
           </div>

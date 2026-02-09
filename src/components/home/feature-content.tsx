@@ -31,10 +31,10 @@ export function FeatureContent() {
                 Expert Lens Fitting & Eye Care
               </h2>
               <p className="text-muted-foreground leading-relaxed mb-4">
-                At Chidiac Optic, we believe that perfect vision starts with expert care. Our experienced opticians provide comprehensive refraction tests and personalized lens fitting to ensure you get the best visual experience.
+                With over 20 years of experience, Optometrist Francis Chidiac and his team provide comprehensive refraction tests and personalized lens fitting. We design, measure, fit, and adapt lenses and frames to meet each client&apos;s unique needs.
               </p>
               <p className="text-muted-foreground leading-relaxed mb-8">
-                Whether you need prescription eyeglasses, sunglasses, or contact lenses, we take the time to understand your needs and recommend the perfect solution from our premium collection of designer brands.
+                Whether you need prescription eyeglasses, 100% authentic sunglasses, or contact lenses, we take the time to understand your needs and recommend the perfect solution from our curated collection of world-renowned designer brands.
               </p>
               <Link href="/about">
                 <Button variant="outline" size="lg">

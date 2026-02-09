@@ -1,17 +1,26 @@
 export const SITE_NAME = "Chidiac Optic";
 export const SITE_DESCRIPTION =
-  "Premium eyewear and optical services in Bickfaya, Lebanon. Expert eye care, designer brands, and professional lens fitting.";
+  "Over 20 years of premium eyewear and professional optical services in Bickfaya, Lebanon. Expert eye care, 100% authentic designer brands, and professional lens fitting by Optometrist Francis Chidiac.";
 export const SITE_URL = process.env.NEXT_PUBLIC_SITE_URL || "https://chidiacoptic.com";
 
 export const BUSINESS = {
   name: "Chidiac Optic",
+  owner: "Francis Chidiac",
+  ownerTitle: "Optometrist",
+  experience: "20+",
   tagline: "It's not the job you do, it's how you do the job..",
+  description:
+    "Professional Eye Test, Optical Eyeglasses | Prescription Lenses, 100% Authentic Sunglasses | Authorized Dealer",
   location: "Bickfaya, Main Road, Matn, Lebanon",
   phone: "+961 4 986 983",
   mobile: "+961 3 911 173",
   whatsapp: "+961-78-911-172",
   whatsappNumber: "96178911172",
   email: "info@chidiacoptic.com",
+  workingHours: {
+    weekdays: "Monday - Saturday: 9:00 AM - 7:00 PM",
+    weekend: "Sunday: Closed",
+  },
   social: {
     facebook: "https://www.facebook.com/ChidiacOptic",
     instagram: "https://www.instagram.com/chidiacoptic",
@@ -45,6 +54,12 @@ export const BRANDS = [
   "Emporio Armani",
   "Guess",
   "Ray-Ban",
+  "Oakley",
+  "Silhouette",
+  "Jaguar",
+  "Paul & Joe",
+  "Molsion",
+  "Folie",
   "Furla",
   "Swarovski",
   "Miu Miu",

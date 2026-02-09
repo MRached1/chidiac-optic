@@ -111,16 +111,16 @@ export default function AboutPage() {
                   Your Trusted Optical Destination in Bickfaya
                 </h2>
                 <p className="text-muted-foreground leading-relaxed mb-4">
-                  Chidiac Optic is your premier destination for quality eyewear and professional optical services in Bickfaya, Lebanon. We are dedicated to helping you see the world clearly and stylishly.
+                  Founded by Optometrist Francis Chidiac, Chidiac Optic has been Bickfaya&apos;s premier destination for quality eyewear and professional optical services for over 20 years. We design, measure, fit, and adapt lenses and frames to meet each client&apos;s unique needs.
                 </p>
                 <p className="text-muted-foreground leading-relaxed mb-4">
-                  Our experienced team of opticians combines cutting-edge technology with personalized care to deliver the best visual solutions for each of our clients. From comprehensive eye exams to custom lens fitting, we provide end-to-end optical services.
+                  As an authorized dealer of 100% authentic eyewear, our experienced team combines cutting-edge technology with personalized care. From comprehensive refraction tests to custom lens fitting, we provide professional eye tests, optical eyeglasses, prescription lenses, and a wide collection of sunglasses and contact lenses.
                 </p>
                 <blockquote className="border-l-4 border-primary-400 pl-4 my-6 italic text-lg font-serif text-foreground">
                   {BUSINESS.tagline}
                 </blockquote>
                 <p className="text-muted-foreground leading-relaxed">
-                  With a curated selection of designer brands including Dolce & Gabbana, Prada, Versace, Porsche Design, and more, we ensure you find the perfect frames that match both your vision needs and personal style.
+                  With a curated selection of designer brands including Dolce &amp; Gabbana, Prada, Versace, Ray-Ban, Oakley, Silhouette, Porsche Design, and more, we ensure you find the perfect frames that match both your vision needs and personal style.
                 </p>
               </div>
             </AnimatedSection>

@@ -11,7 +11,7 @@ import { Button } from "@/components/ui/button";
 const slides = [
   {
     title: "See the World in Style",
-    subtitle: "New Collection 2024",
+    subtitle: "New Collection 2025",
     description: "Discover our curated selection of premium designer eyewear",
     cta: { label: "Shop Now", href: "/shop" },
     bg: "bg-gradient-to-r from-gray-900 to-gray-700",
