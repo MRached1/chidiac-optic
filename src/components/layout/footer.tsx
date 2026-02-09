@@ -1,4 +1,5 @@
 import Link from "next/link";
+import Image from "next/image";
 import { BUSINESS, SITE_NAME } from "@/lib/constants";
 
 export function Footer() {
@@ -8,9 +9,15 @@ export function Footer() {
         <div className="grid grid-cols-1 md:grid-cols-2 lg:grid-cols-4 gap-10">
           {/* About */}
           <div>
-            <h3 className="text-xl font-serif font-bold mb-4">
-              Chidiac <span className="text-primary-400">Optic</span>
-            </h3>
+            <Link href="/" className="inline-block mb-4">
+              <Image
+                src="/images/brand/logo-bw.jpg"
+                alt="Chidiac Optic"
+                width={140}
+                height={70}
+                className="h-12 w-auto object-contain brightness-0 invert"
+              />
+            </Link>
             <p className="text-gray-400 text-sm leading-relaxed mb-5">
               Your trusted optical destination in Bickfaya, Lebanon. Over 20 years of expert eye care, premium eyewear, and personalized service by Optometrist Francis Chidiac.
             </p>

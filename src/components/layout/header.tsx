@@ -2,6 +2,7 @@
 
 import { useState, useEffect } from "react";
 import Link from "next/link";
+import Image from "next/image";
 import { Search, Heart, ShoppingBag, Menu, X } from "lucide-react";
 import { cn } from "@/lib/utils";
 import { useCartStore } from "@/stores/cart-store";
@@ -44,9 +45,14 @@ export function Header() {
 
           {/* Logo */}
           <Link href="/" className="flex items-center">
-            <span className="text-2xl font-serif font-bold tracking-tight">
-              Chidiac <span className="text-primary-400">Optic</span>
-            </span>
+            <Image
+              src="/images/brand/logo-bw.jpg"
+              alt="Chidiac Optic"
+              width={160}
+              height={80}
+              className="h-14 w-auto object-contain"
+              priority
+            />
           </Link>
 
           {/* Desktop Navigation */}
